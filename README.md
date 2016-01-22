@@ -16,9 +16,10 @@ Projeto contendo a criação e evolução do banco de dados do GSAN
 ## Fazer o download do projeto
     git clone https://github.com/prodigasistemas/gsan-migracoes.git
 
-    cd gsan-migracoes/comercial
+OBS: A primeira migração deve ser feita no diretorio comercial
 
-## Configurar a conexão com o banco de dados
+## Configurar a conexão com o banco de dados gsan_comercial
+    cd gsan-migracoes/comercial
     cp environments/development.exemplo.properties environments/development.properties
 
     vim environments/development.properties
@@ -27,7 +28,22 @@ Projeto contendo a criação e evolução do banco de dados do GSAN
       username=[USUARIO]
       password=[SENHA]
 
-## Executar as migrações
+## Executar as migrações para o banco de dados gsan_comercial
+    migrate status
+
+    migrate up
+
+## Configurar a conexão com o banco de dados gsan_gerencial
+    cd gsan-migracoes/gerencial
+    cp environments/development.exemplo.properties environments/development.properties
+
+    vim environments/development.properties
+      script_char_set=LATIN1
+      url=jdbc:postgresql://[endereço-do-servidor-de-banco-de-dados]:5432/gsan_gerencial
+      username=[USUARIO]
+      password=[SENHA]
+
+## Executar as migrações para o banco de dados gsan_gerencial
     migrate status
 
     migrate up
