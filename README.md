@@ -15,8 +15,8 @@ Projeto contendo a criação e evolução do banco de dados do GSAN
 
 ## Fazer o download do projeto
     git clone https://github.com/prodigasistemas/gsan-migracoes.git
-
-OBS: A primeira migração deve ser feita no diretorio comercial
+    
+    Obs: A primeira migração deve ser feita para o banco de dados gsan_comercial
 
 ## Configurar a conexão com o banco de dados gsan_comercial
     cd gsan-migracoes/comercial
