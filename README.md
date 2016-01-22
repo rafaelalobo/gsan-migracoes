@@ -2,7 +2,7 @@
 Projeto contendo a criação e evolução do banco de dados do GSAN
 
 ## Instalar o Java 6
-		sudo apt-get -y install openjdk-6-jdk
+    sudo apt-get -y install openjdk-6-jdk
 
 ## Instalar Git e Unzip
     sudo apt-get -y install git unzip 
@@ -16,10 +16,11 @@ Projeto contendo a criação e evolução do banco de dados do GSAN
 ## Fazer o download do projeto
     git clone https://github.com/prodigasistemas/gsan-migracoes.git
     
-    Obs: A primeira migração deve ser feita para o banco de dados gsan_comercial
+**Obs.:** A primeira migração deve ser feita para o banco de dados gsan_comercial
 
 ## Configurar a conexão com o banco de dados gsan_comercial
     cd gsan-migracoes/comercial
+    
     cp environments/development.exemplo.properties environments/development.properties
 
     vim environments/development.properties
@@ -35,6 +36,7 @@ Projeto contendo a criação e evolução do banco de dados do GSAN
 
 ## Configurar a conexão com o banco de dados gsan_gerencial
     cd gsan-migracoes/gerencial
+    
     cp environments/development.exemplo.properties environments/development.properties
 
     vim environments/development.properties
