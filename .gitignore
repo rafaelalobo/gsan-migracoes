@@ -1,2 +1,6 @@
 comercial/environments/development.properties
 gerencial/environments/development.properties
+comercial/environments/stage.properties
+comercial/environments/production.properties
+comercial/environments/local.properties
+.DS_Store
