@@ -11,7 +11,7 @@ Projeto contendo a criação e evolução do banco de dados do GSAN
 * [Página da Wiki](https://github.com/prodigasistemas/gsan/wiki/Instala%C3%A7%C3%A3o-07-PostgreSQL)
 
 ## Instalar o mybatis-migrations
-* [Página da Wiki](https://github.com/prodigasistemas/gsan/wiki/Criando-Migra%C3%A7%C3%B5es-na-Base-de-Dados#instalar-pelo-console-do-linux)
+* [Página da Wiki](https://github.com/prodigasistemas/gsan/wiki/Criando-Migra%C3%A7%C3%B5es-na-Base-de-Dados)
 
 ## Fazer o download do projeto
     git clone https://github.com/prodigasistemas/gsan-migracoes.git
