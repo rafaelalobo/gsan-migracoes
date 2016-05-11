@@ -50,6 +50,8 @@ GRANT ALL ON TABLE atendimentopublico.agencia_regul_municipio TO gsan_admin;
 GRANT SELECT, UPDATE, INSERT, DELETE ON TABLE atendimentopublico.agencia_regul_municipio TO pg_aplic;
 GRANT SELECT ON TABLE atendimentopublico.agencia_regul_municipio TO pg_users;
 
+INSERT INTO atendimentopublico.agencia_reguladora VALUES (nextval('atendimentopublico.seq_agencia_reguladora'), 'AMAE', 201511, 2, '2016-01-01', null, now());
+INSERT INTO atendimentopublico.agencia_regul_municipio VALUES (6, 33, now());
 -- //@UNDO
 -- SQL to undo the change goes here.
 
