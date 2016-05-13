@@ -1563,7 +1563,7 @@ COMMENT ON COLUMN db_versao_base.dbvb_tmultimaalteracao IS 'Momento da execucao 
 -- Name: COLUMN db_versao_base.dbvb_dsversaoaplicacao; Type: COMMENT; Schema: admindb; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN db_versao_base.dbvb_dsversaoaplicacao IS 'Versão da aplicação batch e online compativel com a base publicada';
+COMMENT ON COLUMN db_versao_base.dbvb_dsversaoaplicacao IS 'VersÃ£o da aplicaÃ§Ã£o batch e online compativel com a base publicada';
 
 
 --
@@ -1669,7 +1669,7 @@ COMMENT ON COLUMN db_versao_sincronismo.dbvf_tmultimaalteracao IS 'Momento da ex
 -- Name: COLUMN db_versao_sincronismo.dbvf_dsversaoaplicacao; Type: COMMENT; Schema: admindb; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN db_versao_sincronismo.dbvf_dsversaoaplicacao IS 'Versão da aplicação batch e online compativel com o sincronismo publicado.';
+COMMENT ON COLUMN db_versao_sincronismo.dbvf_dsversaoaplicacao IS 'VersÃ£o da aplicaÃ§Ã£o batch e online compativel com o sincronismo publicado.';
 
 
 --
@@ -2537,7 +2537,7 @@ COMMENT ON COLUMN g_ligacao_agua_situacao.last_icativaagua IS 'Indica se a situa
 -- Name: COLUMN g_ligacao_agua_situacao.last_icdesligadaagua; Type: COMMENT; Schema: atendimentopublico; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN g_ligacao_agua_situacao.last_icdesligadaagua IS 'Indica se a situacao da ligacao de água e de um imovel desligado';
+COMMENT ON COLUMN g_ligacao_agua_situacao.last_icdesligadaagua IS 'Indica se a situacao da ligacao de Ã¡gua e de um imovel desligado';
 
 
 --
@@ -2546,7 +2546,7 @@ COMMENT ON COLUMN g_ligacao_agua_situacao.last_icdesligadaagua IS 'Indica se a s
 -- Name: COLUMN g_ligacao_agua_situacao.last_iccadastradaagua; Type: COMMENT; Schema: atendimentopublico; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN g_ligacao_agua_situacao.last_iccadastradaagua IS 'Indica se a situacao da ligacao de água e de um imovel cadastrado';
+COMMENT ON COLUMN g_ligacao_agua_situacao.last_iccadastradaagua IS 'Indica se a situacao da ligacao de Ã¡gua e de um imovel cadastrado';
 
 
 --
@@ -2617,7 +2617,7 @@ COMMENT ON COLUMN g_ligacao_esgoto_situacao.lest_icdesligadaesgoto IS 'Indica se
 -- Name: COLUMN g_ligacao_esgoto_situacao.lest_iccadastradaesgoto; Type: COMMENT; Schema: atendimentopublico; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN g_ligacao_esgoto_situacao.lest_iccadastradaesgoto IS 'Indica se a situacao da ligacao de esgoto é de um imovel cadastrado';
+COMMENT ON COLUMN g_ligacao_esgoto_situacao.lest_iccadastradaesgoto IS 'Indica se a situacao da ligacao de esgoto Ã© de um imovel cadastrado';
 
 
 --
@@ -2751,7 +2751,7 @@ COMMENT ON COLUMN un_resumo_ra.amen_id IS 'Id do motivo de encerramento';
 -- Name: COLUMN un_resumo_ra.rera_qtrageradames_no_prazo; Type: COMMENT; Schema: atendimentopublico; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_ra.rera_qtrageradames_no_prazo IS 'Quantidade de RA´s geradas no mes no prazo.';
+COMMENT ON COLUMN un_resumo_ra.rera_qtrageradames_no_prazo IS 'Quantidade de RAÂ´s geradas no mes no prazo.';
 
 
 --
@@ -2760,7 +2760,7 @@ COMMENT ON COLUMN un_resumo_ra.rera_qtrageradames_no_prazo IS 'Quantidade de RA´
 -- Name: COLUMN un_resumo_ra.rera_qtrageradames_fora_prazo; Type: COMMENT; Schema: atendimentopublico; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_ra.rera_qtrageradames_fora_prazo IS 'Quantidade de RA´s geradas no mes fora do prazo.';
+COMMENT ON COLUMN un_resumo_ra.rera_qtrageradames_fora_prazo IS 'Quantidade de RAÂ´s geradas no mes fora do prazo.';
 
 
 --
@@ -3305,7 +3305,7 @@ COMMENT ON COLUMN g_localidade.loca_nmmunicipio IS 'Nome do Municipio';
 -- Name: COLUMN g_localidade.muni_idprincipal; Type: COMMENT; Schema: cadastro; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN g_localidade.muni_idprincipal IS 'Identificador do municÃ­pio principal associado a localidade';
+COMMENT ON COLUMN g_localidade.muni_idprincipal IS 'Identificador do municÃƒÂ­pio principal associado a localidade';
 
 
 --
@@ -3449,7 +3449,7 @@ ALTER TABLE g_subcategoria OWNER TO gsan_admin;
 -- Name: COLUMN g_subcategoria.scat_icrural; Type: COMMENT; Schema: cadastro; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN g_subcategoria.scat_icrural IS 'Indicador se a subcategoria é rural';
+COMMENT ON COLUMN g_subcategoria.scat_icrural IS 'Indicador se a subcategoria Ã© rural';
 
 
 --
@@ -6875,7 +6875,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.rerf_id IS 'Chave primaria da tabela';
 -- Name: COLUMN un_resumo_refaturamento.rerf_amreferencia; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.rerf_amreferencia IS 'Ano/Mês de Referência';
+COMMENT ON COLUMN un_resumo_refaturamento.rerf_amreferencia IS 'Ano/MÃªs de ReferÃªncia';
 
 
 --
@@ -6884,7 +6884,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.rerf_amreferencia IS 'Ano/Mês de Refer
 -- Name: COLUMN un_resumo_refaturamento.rerf_amreferenciaconta; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.rerf_amreferenciaconta IS 'Ano/Mês da Conta';
+COMMENT ON COLUMN un_resumo_refaturamento.rerf_amreferenciaconta IS 'Ano/MÃªs da Conta';
 
 
 --
@@ -6929,7 +6929,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.stcm_id IS 'Id do Setor Comercial';
 -- Name: COLUMN un_resumo_refaturamento.rerf_cdsetorcomercial; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.rerf_cdsetorcomercial IS 'Código do Setor Comercial ';
+COMMENT ON COLUMN un_resumo_refaturamento.rerf_cdsetorcomercial IS 'CÃ³digo do Setor Comercial ';
 
 
 --
@@ -6947,7 +6947,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.iper_id IS 'Id do Perfil do Imovel';
 -- Name: COLUMN un_resumo_refaturamento.last_id; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.last_id IS 'Id da Situação da Lig. Agua';
+COMMENT ON COLUMN un_resumo_refaturamento.last_id IS 'Id da SituaÃ§Ã£o da Lig. Agua';
 
 
 --
@@ -6956,7 +6956,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.last_id IS 'Id da Situação da Lig. Agu
 -- Name: COLUMN un_resumo_refaturamento.lest_id; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.lest_id IS 'Id da Situação da Lig. Esgoto';
+COMMENT ON COLUMN un_resumo_refaturamento.lest_id IS 'Id da SituaÃ§Ã£o da Lig. Esgoto';
 
 
 --
@@ -7019,7 +7019,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.lepf_id IS 'Id do Perfil da Lig. Esgot
 -- Name: COLUMN un_resumo_refaturamento.crog_id; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.crog_id IS 'Id da Origem do Crédito';
+COMMENT ON COLUMN un_resumo_refaturamento.crog_id IS 'Id da Origem do CrÃ©dito';
 
 
 --
@@ -7064,7 +7064,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.fntp_id IS 'Id do Tipo de Financiament
 -- Name: COLUMN un_resumo_refaturamento.dbtp_id; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.dbtp_id IS 'Id do Tipo de Débito';
+COMMENT ON COLUMN un_resumo_refaturamento.dbtp_id IS 'Id do Tipo de DÃ©bito';
 
 
 --
@@ -7082,7 +7082,7 @@ COMMENT ON COLUMN un_resumo_refaturamento.crtp_id IS 'Id do Tipo de Criterio de 
 -- Name: COLUMN un_resumo_refaturamento.rerf_ichidrometro; Type: COMMENT; Schema: faturamento; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_refaturamento.rerf_ichidrometro IS 'Indicador de existência de Hidrômetro na Ligacacao';
+COMMENT ON COLUMN un_resumo_refaturamento.rerf_ichidrometro IS 'Indicador de existÃªncia de HidrÃ´metro na Ligacacao';
 
 
 --
@@ -8542,7 +8542,7 @@ ALTER TABLE un_res_lt_anorm OWNER TO gsan_admin;
 -- Name: COLUMN un_res_lt_anorm.ltan_idanormalidadeinformada; Type: COMMENT; Schema: micromedicao; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_res_lt_anorm.ltan_idanormalidadeinformada IS 'Acumula os cÃ³digos de anormalidades informadas pelo leiturista';
+COMMENT ON COLUMN un_res_lt_anorm.ltan_idanormalidadeinformada IS 'Acumula os cÃƒÂ³digos de anormalidades informadas pelo leiturista';
 
 
 --
@@ -8753,7 +8753,7 @@ COMMENT ON COLUMN un_resumo_coleta_esgoto.rece_icfaturamento IS 'Indicador de Fa
 -- Name: COLUMN un_resumo_coleta_esgoto.ftst_id; Type: COMMENT; Schema: micromedicao; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_coleta_esgoto.ftst_id IS 'Tipo da Situação de Faturamento';
+COMMENT ON COLUMN un_resumo_coleta_esgoto.ftst_id IS 'Tipo da SituaÃ§Ã£o de Faturamento';
 
 
 --
@@ -8762,7 +8762,7 @@ COMMENT ON COLUMN un_resumo_coleta_esgoto.ftst_id IS 'Tipo da Situação de Fatura
 -- Name: COLUMN un_resumo_coleta_esgoto.ftsm_id; Type: COMMENT; Schema: micromedicao; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_coleta_esgoto.ftsm_id IS 'Motivo da Situação de Faturamento';
+COMMENT ON COLUMN un_resumo_coleta_esgoto.ftsm_id IS 'Motivo da SituaÃ§Ã£o de Faturamento';
 
 
 --
@@ -8813,7 +8813,7 @@ ALTER TABLE un_resumo_consumo_agua OWNER TO gsan_admin;
 -- Name: COLUMN un_resumo_consumo_agua.reca_icligacaofaturada; Type: COMMENT; Schema: micromedicao; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN un_resumo_consumo_agua.reca_icligacaofaturada IS ' Indicador para saber se a ligação e faturada ou nao:1 para Faturada,2 para Não faturada';
+COMMENT ON COLUMN un_resumo_consumo_agua.reca_icligacaofaturada IS ' Indicador para saber se a ligaÃ§Ã£o e faturada ou nao:1 para Faturada,2 para NÃ£o faturada';
 
 
 --
@@ -10468,7 +10468,7 @@ COMMENT ON COLUMN g_distrito_operacional.diop_id IS 'id do distrito operacional'
 -- Name: COLUMN g_distrito_operacional.diop_dsdistritooperacional; Type: COMMENT; Schema: operacional; Owner: gsan_admin
 --
 
-COMMENT ON COLUMN g_distrito_operacional.diop_dsdistritooperacional IS 'descrição do distrito operacional ';
+COMMENT ON COLUMN g_distrito_operacional.diop_dsdistritooperacional IS 'descriÃ§Ã£o do distrito operacional ';
 
 
 --
@@ -10535,7 +10535,7 @@ ALTER TABLE foo OWNER TO postgres;
 
 --
 -- TOC entry 438 (class 1259 OID 848940)
--- Name: myremote_pg_proc; Type: VIEW; Schema: public; Owner: appvazamento
+-- Name: myremote_pg_proc; Type: VIEW; Schema: public; Owner: gsan_admin
 --
 
 CREATE VIEW myremote_pg_proc AS
@@ -10547,7 +10547,7 @@ CREATE VIEW myremote_pg_proc AS
                  port=5432'::text, 'SELECT rota_cdrota FROM micromedicao.rota;'::text) t1(cd_rota smallint);
 
 
-ALTER TABLE myremote_pg_proc OWNER TO appvazamento;
+ALTER TABLE myremote_pg_proc OWNER TO gsan_admin;
 
 SET default_with_oids = true;
 
